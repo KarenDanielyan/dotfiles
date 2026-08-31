@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "modern-web-guidance-plugin": {
+      "enabled": true
+    },
+    "science": {
+      "enabled": true
+    }
+  },
+  "userSettings": {
+    "remoteControlHostname": "lp074-fading-cosmos",
+    "themeMode": "THEME_MODE_INHERIT"
+  }
+}

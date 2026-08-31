@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gemini-notebook-mcp": {
+      "command": "C:\\Users\\kdaniely\\.local\\bin\\notebooklm-mcp.exe"
+    },
+    "matlab": {
+      "args": [
+        "--matlab-root=C:\\Program Files\\MATLAB\\R2025b"
+      ],
+      "command": "C:\\Users\\kdaniely\\.matlab\\agentic-toolkits\\bin\\matlab-mcp-server.exe"
+    }
+  }
+}

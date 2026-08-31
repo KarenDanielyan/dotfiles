@@ -1,0 +1,93 @@
+{
+    "use_system_window_tabs": false,
+    "preferred_line_length": 80,
+    "relative_line_numbers": "enabled",
+    "edit_predictions": {
+        "mode": "eager",
+        "allow_data_collection": "no",
+    },
+    "icon_theme": "Catppuccin Latte",
+    "cli_default_open_behavior": "new_window",
+    "vim_mode": true,
+    "vim": {
+        "use_smartcase_find": true,
+        "toggle_relative_line_numbers": true,
+    },
+    "terminal": {
+        "shell": {
+            "program": "C:\\Users\\kdaniely\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+        },
+    },
+    "session": {
+        "trust_all_worktrees": true,
+    },
+    "minimap": {
+        "show": "never",
+    },
+    "show_whitespaces": "trailing",
+    "base_keymap": "VSCode",
+    "ui_font_size": 16,
+    "buffer_font_size": 15,
+    "tab_size": 4,
+    "hard_tabs": false,
+    "show_wrap_guides": true,
+    "wrap_guides": [81],
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "One Dark",
+    },
+    "semantic_tokens": "combined",
+    "experimental.theme_overrides": {
+        "syntax": {
+            "comment.todo": {
+                "color": "#FF6001",
+                "font_weight": 700
+            },
+            "comment.warning": {
+                "color": "#FF9900",
+                "font_weight": 700
+            },
+            "comment.error": {
+                "color": "#FF0000",
+                "font_weight": 700
+            },
+            "comment.note": {
+                "color": "#33B5E5",
+                "font_weight": 700
+            }
+        }
+    },
+    "lsp": {
+        "matlab-language-server": {
+            "settings": {
+                "installPath": "C:\\Program Files\\MATLAB\\R2025b",
+                "indexWorkspace": true,
+                "maxFileSizeForAnalysis": 100000,
+            }
+        }
+    },
+    "agent": {
+        "sandbox_permissions": {
+            "allow_all_hosts": true,
+        },
+        "inline_assistant_model": {
+            "provider": "zed.dev",
+            "model": "gpt-5.6-luna",
+            "enable_thinking": false,
+        },
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "gpt-5.6-luna",
+            "enable_thinking": false,
+        },
+    },
+    "agent_servers": {
+        "antigravity-acp": {
+            "default_config_options": {
+                "model": "gemini-3.7-flash-medium"
+            },
+            "type": "registry",
+        },
+    },
+}
